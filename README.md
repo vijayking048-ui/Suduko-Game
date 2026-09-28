@@ -2,8 +2,7 @@
 
 A browser-based Sudoku game built with plain HTML, CSS and JavaScript. No frameworks or dependencies.
 
-**Play it live:** _add your GitHub Pages link here_
-
+**Play it live:** https://vijayking048-ui.github.io/Suduko-Game/
 ## Features
 
 - Random puzzle generation with exactly one solution each time
