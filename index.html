@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sudoku</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Sudoku</h1>
+    <div class="bar">
+      <select id="level" aria-label="Difficulty">
+        <option value="easy">Easy</option>
+        <option value="medium" selected>Medium</option>
+        <option value="hard">Hard</option>
+      </select>
+      <button id="new">New game</button>
+      <button id="hint">Hint</button>
+      <span id="time" aria-label="Time">0:00</span>
+    </div>
+    <div id="board" role="grid" aria-label="Sudoku board"></div>
+    <div id="pad"></div>
+    <p id="message" role="status"></p>
+    <p class="help">Click a cell, then type 1-9 or use the number pad. Red numbers break a Sudoku rule.</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
